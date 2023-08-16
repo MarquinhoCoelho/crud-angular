@@ -1,6 +1,6 @@
-import { Product } from "./../product.model";
+import { Product } from "../product.model";
 import { Router, ActivatedRoute } from "@angular/router";
-import { ProductService } from "./../product.service";
+import { ProductService } from "../product.service";
 import { Component, OnInit } from "@angular/core";
 
 @Component({
@@ -27,6 +27,9 @@ export class ProductUpdateComponent implements OnInit {
   updateProduct(): void {
     this.productService.update(this.product).subscribe(() => {
       this.productService.showMessage("Produto atualizado com sucesso!");
+      this.router.navigate(["/products"]);
+    }, error => {
+      console.log(error);
       this.router.navigate(["/products"]);
     });
   }
