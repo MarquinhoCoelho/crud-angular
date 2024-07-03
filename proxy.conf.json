@@ -1,0 +1,9 @@
+{
+    "/api": {
+      "target": "https://www.bling.com.br",
+      "secure": false,
+      "changeOrigin": true,
+      "logLevel": "debug"
+    }
+  }
+  

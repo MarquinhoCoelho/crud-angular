@@ -35,6 +35,8 @@ import { registerLocaleData } from  '@angular/common';
 import { ForDirective } from './directives/for.directive';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
+import { BlingService } from './components/template/bling.service';
+import { PedidosReadComponent } from './components/pedidos/pedidos-read/pedidos-read.component';
 
 registerLocaleData(localePt);
 
@@ -53,6 +55,7 @@ registerLocaleData(localePt);
     ForDirective,
     ProductUpdateComponent,
     ProductDeleteComponent,
+    PedidosReadComponent,
   ],
   imports: [
     BrowserModule,
@@ -75,7 +78,7 @@ registerLocaleData(localePt);
   providers: [{
     provide: LOCALE_ID,
     useValue: 'pt-BR'
-  }],
+  }, BlingService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
