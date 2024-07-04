@@ -18,11 +18,12 @@
 ```
 nvm install 16
 nvm use 16
+```
 
 3. **Angular CLI:**
 ```
 npm install -g @angular/cli
-
+```
 
 ***
 
