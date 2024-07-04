@@ -1,27 +1,45 @@
-# Frontend
+## Inicialização front-end
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+`Instale as seguintes ferramentas: 
 
-## Development server
+1- NVM
+2- utilize o NVM para baixar a versão 16 do node
+3- AngularCLI`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Após isso basta rodar os seguintes comandos
 
-## Code scaffolding
+### npm install
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### npm start
 
-## Build
+## --
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Inicialização do back-end
 
-## Running unit tests
+obs: Você pode utilizar esses comandos como atalho para chegar a pasta FloripaSites:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### cd bling-api-python
 
-## Running end-to-end tests
+### cd FloripaSites
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+`1 - Esteja na pasta FloripaSites
 
-## Further help
+Inicializar WINDOWS
+Set-ExecutionPolicy RemoteSigned -Scope Process
+.\venv\Scripts\activate
+python manage.py runserver
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Inicializar LINUX
+source venv/bin/activate
+python manage.py runserver
+
+
+QUANDO NÃO ESTÁ INSTALADO NADA
+1- instale o python https://www.python.org/downloads
+2- crie o ambiente virtual: python -m venv venv
+3- execute esse comando se for windows: Set-ExecutionPolicy RemoteSigned -Scope Process
+4- .\venv\Scripts\activate (windows) ou source venv/bin/activate (linux)
+5- pip install django
+6- pip install django-cors-headers
+7- pip install requests
+8- python manage.py runserver`
