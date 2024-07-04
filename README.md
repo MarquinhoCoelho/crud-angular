@@ -1,6 +1,4 @@
-
-## Inicialização Projeto RESIMETAL
-
+# Inicialização Projeto RESIMETAL
 
 ### Inicialização front-end
 
@@ -16,12 +14,13 @@
    Siga as instruções no [repositório oficial do NVM](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 2. **Utilize o NVM para instalar a versão 16 do Node.js:**
-```sh
+
+```
 nvm install 16
 nvm use 16
 
-4. **Angular CLI:**
-```sh
+3. **Angular CLI:**
+```
 npm install -g @angular/cli
 
 
