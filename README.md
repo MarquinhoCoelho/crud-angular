@@ -42,15 +42,20 @@ cd FloripaSites
 
 ​```
 Set-ExecutionPolicy RemoteSigned -Scope Process
+```
 .\venv\Scripts\activate
+```
+```
 python manage.py runserver
+```
 
 ### Inicializar LINUX
 
 ​```
 source venv/bin/activate
+```
 python manage.py runserver
-
+```
 ### Quando não está instalado nada
 
 1. Instale o Python [aqui](https://www.python.org/downloads).
