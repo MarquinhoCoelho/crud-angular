@@ -1,43 +1,61 @@
 ## Inicialização front-end
 
-`Instale as seguintes ferramentas: 
+### Ferramentas Necessárias
 
-1- NVM
-2- utilize o NVM para baixar a versão 16 do node
-3- AngularCLI`
+1. [NVM (Node Version Manager)](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. [Node.js](https://nodejs.org/) versão 16 utilizando o NVM
+3. [Angular CLI](https://angular.io/cli)
 
-Após isso basta rodar os seguintes comandos
+### Passos para Instalação
 
-### npm install
+1. **Instale o NVM:**
+   Siga as instruções no [repositório oficial do NVM](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-### npm start
+2. **Utilize o NVM para instalar a versão 16 do Node.js:**
+   ```sh
+   nvm install 16
+   nvm use 16
+ ```
+
+3. **Angular CLI:**
+   ```sh
+  npm install -g @angular/cli
+   ```
 
 ## Inicialização do back-end
 
 obs: Você pode utilizar esses comandos como atalho para chegar a pasta FloripaSites:
 
-### cd bling-api-python
+​```sh
+cd bling-api-python
 
-### cd FloripaSites
+cd FloripaSites
+​```
 
-`1 - Esteja na pasta FloripaSites
+1. **Esteja na pasta FloripaSites**
 
-Inicializar WINDOWS
+### Inicializar WINDOWS
+​```sh
 Set-ExecutionPolicy RemoteSigned -Scope Process
 .\venv\Scripts\activate
 python manage.py runserver
+​```
 
-Inicializar LINUX
+### Inicializar LINUX
+​```sh
 source venv/bin/activate
 python manage.py runserver
+​```
 
+### Quando não está instalado nada
 
-QUANDO NÃO ESTÁ INSTALADO NADA
-1- instale o python https://www.python.org/downloads
-2- crie o ambiente virtual: python -m venv venv
-3- execute esse comando se for windows: Set-ExecutionPolicy RemoteSigned -Scope Process
-4- .\venv\Scripts\activate (windows) ou source venv/bin/activate (linux)
-5- pip install django
-6- pip install django-cors-headers
-7- pip install requests
-8- python manage.py runserver`
+1. Instale o Python [aqui](https://www.python.org/downloads).
+2. Crie o ambiente virtual: `python -m venv venv`.
+3. Execute esse comando se for Windows: `Set-ExecutionPolicy RemoteSigned -Scope Process`.
+4. Ative o ambiente virtual:
+   - Windows: `.\venv\Scripts\activate`
+   - Linux: `source venv/bin/activate`
+5. Instale o Django: `pip install django`.
+6. Instale o Django CORS Headers: `pip install django-cors-headers`.
+7. Instale o Requests: `pip install requests`.
+8. Execute o Django: `python manage.py runserver`.
