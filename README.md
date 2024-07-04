@@ -32,39 +32,24 @@ npm install -g @angular/cli
 
 **obs: Você pode utilizar esses comandos como atalho para chegar a pasta FloripaSites:**
 
-​```
-cd bling-api-python
-​```
 
-​```
+cd bling-api-python
+
 cd FloripaSites
-```
 
 1. **Esteja na pasta FloripaSites**
 
 ### Inicializar WINDOWS
 
-​```
-Set-ExecutionPolicy RemoteSigned -Scope Process
-​```
-
-​```
+​Set-ExecutionPolicy RemoteSigned -Scope Process
 .\venv\Scripts\activate
-```
-
-```
 python manage.py runserver
-```
 
 ### Inicializar LINUX
 
-```
 source venv/bin/activate
-```
-
-```
 python manage.py runserver
-```
+
 
 ### Quando não está instalado nada
 
