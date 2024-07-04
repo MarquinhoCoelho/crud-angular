@@ -1,17 +1,16 @@
 
 ## Inicialização Projeto RESIMETAL
 
----
 
 ### Inicialização front-end
 
-### Ferramentas Necessárias
+**Ferramentas Necessárias**
 
 1. [NVM (Node Version Manager)](https://github.com/nvm-sh/nvm#installing-and-updating)
 2. [Node.js](https://nodejs.org/) versão 16 utilizando o NVM
 3. [Angular CLI](https://angular.io/cli)
 
-### Passos para Instalação
+**Passos para Instalação**
 
 1. **Instale o NVM:**
    Siga as instruções no [repositório oficial do NVM](https://github.com/nvm-sh/nvm#installing-and-updating).
@@ -26,16 +25,20 @@
   npm install -g @angular/cli
 
 
+
 ***
+
+
 
 ### Inicialização do back-end
 
 **obs: Você pode utilizar esses comandos como atalho para chegar a pasta FloripaSites:**
+
 ​```sh
 cd bling-api-python
 
 cd FloripaSites
-
+​```
 
 1. **Esteja na pasta FloripaSites**
 
@@ -45,14 +48,14 @@ cd FloripaSites
 Set-ExecutionPolicy RemoteSigned -Scope Process
 .\venv\Scripts\activate
 python manage.py runserver
-
+​```
 
 ### Inicializar LINUX
 
 ​```sh
 source venv/bin/activate
 python manage.py runserver
-
+​```
 
 ### Quando não está instalado nada
 
