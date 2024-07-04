@@ -5,7 +5,7 @@
 **Ferramentas Necessárias**
 
 1. [NVM (Node Version Manager)](https://github.com/nvm-sh/nvm#installing-and-updating)
-2. [Node.js](https://nodejs.org/) versão 16 utilizando o NVM
+2. [Node.js](https://nodejs.org/) versão 12 utilizando o NVM
 3. [Angular CLI](https://angular.io/cli)
 
 **Passos para Instalação**
@@ -13,11 +13,11 @@
 1. **Instale o NVM:**
    Siga as instruções no [repositório oficial do NVM](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-2. **Utilize o NVM para instalar a versão 16 do Node.js:**
+2. **Utilize o NVM para instalar a versão 12 do Node.js:**
 
 ```
-nvm install 16
-nvm use 16
+nvm install 12
+nvm use 12
 ```
 
 3. **Angular CLI:**
