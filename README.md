@@ -12,8 +12,6 @@ Após isso basta rodar os seguintes comandos
 
 ### npm start
 
-## --
-
 ## Inicialização do back-end
 
 obs: Você pode utilizar esses comandos como atalho para chegar a pasta FloripaSites:
