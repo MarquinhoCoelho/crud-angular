@@ -16,19 +16,16 @@
    Siga as instruções no [repositório oficial do NVM](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 2. **Utilize o NVM para instalar a versão 16 do Node.js:**
-   ```sh
-   nvm install 16
-   nvm use 16
-   ​```
+```sh
+nvm install 16
+nvm use 16
 
 4. **Angular CLI:**
 ```sh
 npm install -g @angular/cli
-​```
 
 
 ***
-
 
 
 ### Inicialização do back-end
@@ -38,7 +35,6 @@ npm install -g @angular/cli
 ​```sh
 cd bling-api-python
 cd FloripaSites
-​```
 
 1. **Esteja na pasta FloripaSites**
 
@@ -48,14 +44,12 @@ cd FloripaSites
 Set-ExecutionPolicy RemoteSigned -Scope Process
 .\venv\Scripts\activate
 python manage.py runserver
-​```
 
 ### Inicializar LINUX
 
 ​```sh
 source venv/bin/activate
 python manage.py runserver
-​```
 
 ### Quando não está instalado nada
 
