@@ -19,11 +19,12 @@
    ```sh
    nvm install 16
    nvm use 16
+   ​```
 
 4. **Angular CLI:**
-   ```sh
-  npm install -g @angular/cli
-
+```sh
+npm install -g @angular/cli
+​```
 
 
 ***
@@ -36,7 +37,6 @@
 
 ​```sh
 cd bling-api-python
-
 cd FloripaSites
 ​```
 
