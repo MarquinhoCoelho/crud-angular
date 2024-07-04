@@ -34,7 +34,9 @@ npm install -g @angular/cli
 
 ​```
 cd bling-api-python
+```
 cd FloripaSites
+```
 
 1. **Esteja na pasta FloripaSites**
 
@@ -42,6 +44,8 @@ cd FloripaSites
 
 ​```
 Set-ExecutionPolicy RemoteSigned -Scope Process
+```
+```
 ```
 .\venv\Scripts\activate
 ```
@@ -54,8 +58,11 @@ python manage.py runserver
 ​```
 source venv/bin/activate
 ```
+```
+```
 python manage.py runserver
 ```
+
 ### Quando não está instalado nada
 
 1. Instale o Python [aqui](https://www.python.org/downloads).
