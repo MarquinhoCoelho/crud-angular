@@ -15,12 +15,11 @@
    ```sh
    nvm install 16
    nvm use 16
- ```
 
 3. **Angular CLI:**
    ```sh
   npm install -g @angular/cli
-   ```
+
 
 ## Inicialização do back-end
 
@@ -30,7 +29,7 @@ obs: Você pode utilizar esses comandos como atalho para chegar a pasta FloripaS
 cd bling-api-python
 
 cd FloripaSites
-​```
+
 
 1. **Esteja na pasta FloripaSites**
 
@@ -39,13 +38,13 @@ cd FloripaSites
 Set-ExecutionPolicy RemoteSigned -Scope Process
 .\venv\Scripts\activate
 python manage.py runserver
-​```
+
 
 ### Inicializar LINUX
 ​```sh
 source venv/bin/activate
 python manage.py runserver
-​```
+
 
 ### Quando não está instalado nada
 
