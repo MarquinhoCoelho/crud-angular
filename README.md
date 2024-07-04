@@ -1,4 +1,9 @@
-## Inicialização front-end
+
+## Inicialização Projeto RESIMETAL
+
+---
+
+### Inicialização front-end
 
 ### Ferramentas Necessárias
 
@@ -12,21 +17,20 @@
    Siga as instruções no [repositório oficial do NVM](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 2. **Utilize o NVM para instalar a versão 16 do Node.js:**
-   
    ```sh
    nvm install 16
    nvm use 16
 
 4. **Angular CLI:**
-   
    ```sh
   npm install -g @angular/cli
 
 
-## Inicialização do back-end
+***
+
+### Inicialização do back-end
 
 **obs: Você pode utilizar esses comandos como atalho para chegar a pasta FloripaSites:**
-
 ​```sh
 cd bling-api-python
 
