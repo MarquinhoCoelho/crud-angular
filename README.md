@@ -34,7 +34,7 @@ npm install -g @angular/cli
 
 ​```
 cd bling-api-python
-```
+​```
 
 ​```
 cd FloripaSites
@@ -48,7 +48,7 @@ cd FloripaSites
 Set-ExecutionPolicy RemoteSigned -Scope Process
 ​```
 
-```
+​```
 .\venv\Scripts\activate
 ```
 
@@ -61,6 +61,7 @@ python manage.py runserver
 ```
 source venv/bin/activate
 ```
+
 ```
 python manage.py runserver
 ```
